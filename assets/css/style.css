@@ -1,0 +1,51 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nabar-brand{
+    padding-bottom: 0.5em
+}
+.nav-bar-logo{
+    width: 200px;
+}
+
+.main-background{ 
+    background-color: #F4EAE3;
+}
+
+.col-one{
+    display: inline-block;
+    width: 45%;
+}
+
+.hero-image{
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    left: 75px;
+}
+
+.col-two{
+    display: inline-block;
+    width: 45%;
+}
+
+.main-opener{
+    font-size: 35px;
+    color: #7B798;
+    width: 100%;
+    letter-spacing: 1px;
+    position: relative;
+    top: 150px;
+}
