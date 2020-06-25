@@ -33,16 +33,31 @@ body{
     font-size: 35px;
     letter-spacing: 1px;
 }
-@media only screen and (min-width: 765px){
+@media only screen and (min-width: 768px){
 
     .main-opener>p{
     position:relative;
-    top: 100px;
+    top: 200px;
     }
 
     .main-opener>button{
     position:relative;
-    top: 100px;
+    top: 200px;
+    }
+
+}
+
+@media only screen and (max-width: px){
+
+    .main-opener{
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+
+    .hero-image{
+        width: 100%;
+        text-align: center;
     }
 
 }
@@ -85,7 +100,7 @@ body{
 }
 
 .copyright{
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 0px;
