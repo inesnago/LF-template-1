@@ -25,14 +25,24 @@ body{
 }
 
 .hero-image{
-    min-width: 100%;
+    width: 100%;
     display: inline-block;
-    position: relative;
-    left: 75px;
 }
 
 .main-opener{
     font-size: 35px;
     margin-top: 25px;
     letter-spacing: 1px;
+}
+
+footer>ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-social>li, .footer-terms>li{
+    display: inline-block;
+    padding: 2px, 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
