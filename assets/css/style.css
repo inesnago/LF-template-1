@@ -20,32 +20,19 @@ body{
     width: 200px;
 }
 
-.main-background{ 
+.main-background{
     background-color: #F4EAE3;
 }
 
-.col-one{
-    display: inline-block;
-    width: 45%;
-}
-
 .hero-image{
-    width: 80%;
+    min-width: 100%;
     display: inline-block;
     position: relative;
     left: 75px;
 }
 
-.col-two{
-    display: inline-block;
-    width: 45%;
-}
-
 .main-opener{
     font-size: 35px;
-    color: #7B798;
-    width: 100%;
+    margin-top: 25px;
     letter-spacing: 1px;
-    position: relative;
-    top: 150px;
 }
